@@ -17,9 +17,9 @@ This repository introduces and analyses a **random forest classifier** model for
   The accompanying paper details the theory, methodology, and analysis of the project. It provides a comprehensive explanation of the model's design, probability calibration, and performance metrics.
 
 ## **Key Features**
-- Predicts match outcomes using a transitive approach based on the relative performance of competing teams against shared opponents.
-- Integrates these features into a random forest classifier for probabilistic forecasting.
-- Evaluates model performance against bookmaker accuracy and ROI on betting strategies.
+- Predicts match outcomes using a pairwise comparison approach based on a quantitative analysis of the relative performance of competing teams against shared opponents.
+- Integrates the resulting features into a random forest classifier for probabilistic forecasting.
+- Evaluates model performance against bookmaker accuracy and ROI on  a disciplined betting strategy.
 
 ## **Project Highlights**
 - **Dataset**: Major League Baseball matches (2021–2024 seasons).
@@ -27,6 +27,14 @@ This repository introduces and analyses a **random forest classifier** model for
 - **Performance Metrics**:
   - Brier Score (Model): 0.2452
   - Brier Score (Bookmaker): 0.2419
+
+## **Dependencies & Libraries**
+This project requires several Python libraries for **data collection, analysis, visualisation, and machine learning**:
+- **Web Scraping**: `BeautifulSoup`, `selenium` – Used for extracting match data and odds from oddsportal.com.
+- **Data Handling & Computation**: `pandas`, `numpy` – For managing and processing large datasets efficiently.
+- **Machine Learning & Evaluation**: `scikit-learn` – Implements the **random forest classifier** and calculates performance metrics (Brier Score, accuracy, ROI).
+- **Visualisation**: `matplotlib` – Generates charts and visual insights into betting performance and model calibration.
+
 
 ## **How to Use**
 1. Clone this repository to your local machine:
