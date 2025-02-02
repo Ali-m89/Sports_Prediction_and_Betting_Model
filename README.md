@@ -1,6 +1,6 @@
 # **Sports Prediction and Betting Model**
 
-This repository introduces and analyses a **random forest classifier** model for predicting the outcomes of competitive sports events. The project combines a systematic data-driven approach with a robust machine learning framework to provide probabilistic predictions for match outcomes. The model was applied to Major League Baseball (MLB) data and evaluated for both accuracy and profitability in a real-world betting context.
+This repository trains and analyses a **random forest classifier** model for predicting the outcomes of competitive sports events. The project combines a systematic data-driven approach with a robust machine learning framework to provide probabilistic predictions for match outcomes. The model was applied to Major League Baseball (MLB) data and evaluated for both accuracy and profitability in a real-world betting context.
 
 ## **Repository Contents**
 
